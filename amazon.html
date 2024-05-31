@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
+</head>
+<body>
+    <!-- outer start -->
+    <div class="container-fluid" style="background-color:skyblue" >
+        <!-- nav start -->
+        <div class="row bg-dark ">
+            <div class="col-2">
+                <img src="images/amazon.jpeg"class="w-100" style="height:10vh" alt="">
+            </div>
+            <div class="col-2">
+                <i class="bi bi-geo-alt fs-4 text-white"></i><span class="text-white">Hello</br><b>select your address</b></span>
+            </div>
+            <div class="col-4  d-flex my-auto">
+                <input type="text"placeholder="Search"style="height:4vh;width:30vw;;border:2px solid" >
+                <button style="background-color:yellow;height:4vh"><i class="bi bi-search"></i></button>
+             
+            </div>
+            <div class="col-2 ">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/flag.jpeg"style="height:3vh" alt=""><span style="color:white;margin-left:0vw; ">EN</span>
+                    </div>
+                    <div class="col-8 text-white">
+                        <small style="font-size:11px;">Hello,Sign in</small><p style="font-size:13px;">Address & Lists</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="row">
+                    <div class="col-6 text-white">
+                        <small style="font-size:11px;">Return</small><p style="font-size:13px;">&orders</p>
+                    </div>
+                    <div class="col-6">
+                        <i class="bi bi-cart2 fs-2 my-auto text-white"></i><span class="fs-6 text-white">cart</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- nav end -->
+        <div class="row">
+            <div class="col-7 bg-white mx-auto mt-3 mb-3 p-3">
+                
+                <h1>Shopping Cart</h1>
+                <h4 style="margin-left:50vw">Price:</h4>
+            
+                <hr>
+                <div class="row">
+                 <div class="col-3  mt-4">
+                    <img src="images/watch.jpeg"class="w-100 " alt="">
+                 </div>
+                 <div class="col-7">
+                    <span id="amount" style="margin-left:37vw;">199</span>/-
+                   
+                   <h6>Fire-bolt ninja call pro 1.83"smart watch with blutooth calling,AI voice assistence,100 sports models IP67 rating 240*2 <br><span class="text-danger">in stocks</span> <br>Elligible For Free Shipping</h6>
+                   <input type="checkbox"/>This will be a gift learn more.<br/>
+                   <strong>Color:</strong>Black
+    <h2>Qyt: <span id="qty">1</span></h2><span>Delete|Save for later|See more like this|Share</span>
+    <select id="ch">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="0">more...</option>
+    </select>
+<button onclick="addqty()">Add Qty</button><br/><br/>
+ </div>
+ <hr>
+</col-2><span style="text-align:right">Total Amount:</span><span id="tamount"style="text-align:right">199</span></div>
+            </div>
+            <div class="col-3  bg-white mx-auto mt-3 mb-3 p-2">
+                <input type="radio"/><span>Your order is elligible for FREE delivery.Select this option at checkout,detail.</span>
+               
+                <span style="text-align:right">Total Amount:</span><span id="tamount"style="text-align:right">199</span>
+           
+        </div>
+    </div>
+    <!-- outer end -->
+    <script src="js/card.js"></script>  
+</body>
+</html>
